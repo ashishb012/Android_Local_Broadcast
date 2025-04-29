@@ -24,6 +24,7 @@
         <!-- Global Broadcast Receiver -->
         <receiver
             android:name=".GlobalBroadcastReceiver"
+            android:enabled="true"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.example.androidlocalbroadcast.MY_GLOBAL_BROADCAST" />
